@@ -8,6 +8,7 @@ import OfflineBoltIcon from '@material-ui/icons/OfflineBolt';
 import IconButton from '@material-ui/core/IconButton';
 
 
+// dispalys icons Material UI
 function SwipeButtons() {
   return (
     <div className='swipeButtons'>
