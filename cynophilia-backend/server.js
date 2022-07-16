@@ -4,7 +4,11 @@ import Cors from 'cors';
 
 import Cards from './dbCards.js';
 
-// App Config
+/* App Config connects and connects to MongoDb
+Please note that for demonstration purposes, the username and password have been included here,
+but the better option would be to put them under an environment variable and save in a .env file
+that's made private or only saved under the local machine.
+*/
 const app = express();
 const port = process.env.PORT || 8001;
 const connection_url = `mongodb+srv://admin:7Lg53j0fUWJ7wt6w@cluster0.jjghh.mongodb.net/?retryWrites=true&w=majority`
