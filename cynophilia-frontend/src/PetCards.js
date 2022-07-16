@@ -16,11 +16,12 @@ function PetCards() {
     fetchData();
   }, []);
 
-  const swiped = (direction, nameToRemove) => {
+  // displays to log a msg when card is swiped
+  const swiped = (nameToRemove) => {
     console.log('removing: ' + nameToRemove);
-    // setLastDirection(direction);
   };
 
+  // displays to log a msg when card is out of the frame after removal
   const outOfFrame = (name) => {
     console.log(name + ' removed from the screen!');
   };
