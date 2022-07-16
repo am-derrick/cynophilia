@@ -7,8 +7,12 @@ See screenshot below 👇🏾
 ![Cynophilia Screenshot](https://user-images.githubusercontent.com/65196859/179350877-ba0a496e-7213-46ec-b9d5-bb249077c059.png)
 The purpose is to demonstrate the appreciation of the use of the MERN stack to build a functional App.
 
+## File Structure
+1. All the client side code is contained in the directory cynophilia-frontend.
+2. All the server side code is contained in the directory cynophilis-backend.
+
 ## Technologies Used
-- React JS for frontend of the App, alongside CSS and the `react-dom' to render the content into HTML, `useEffect` and `useState` for component reusability of the functional componemts.
+- React JS for frontend of the App, alongside CSS and the `react-dom` to render the content into HTML, `useEffect` and `useState` for component reusability of the functional componemts.
 - Material UI for the icons.
 - Firebase to host the App and store the different images.
 - MongoDB, Moongoose to connect to the backend for schema and cluster storage.
