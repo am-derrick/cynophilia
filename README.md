@@ -21,7 +21,13 @@ The purpose is to demonstrate the appreciation of the use of the MERN stack to b
 - Nodemon to restart the backened incase of any changes in the files.
 - Nodejs.
 
-## To be added
+## Run The Project
+Open a new terminal within the project directory and run:
+
+Initialize a new project: `npm i`
+Run the development server with `npm run dev`
+
+## To be added 🏗️
 - Login and authentication
 - Dark Mode
 - Ability for users to add dogs
